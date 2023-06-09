@@ -8,7 +8,7 @@ Make a function that will return a greeting statement that uses an input; your p
 def greet(name):
     return "Hello, " + name + " how are you doing today?"
   
-"OR"
+#OR
 
 def greet(name):
     return f'Hello, {name} how are you doing today?'
