@@ -16,7 +16,7 @@ def solution(s):
             result += " " + letter
     return result
   
-  "OR"
+#OR
   
-  def solution(s):
+def solution(s):
     return "".join(" " + l if l.isupper() else l for l in s)
